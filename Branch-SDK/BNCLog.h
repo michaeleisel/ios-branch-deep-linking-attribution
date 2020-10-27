@@ -20,7 +20,7 @@ extern "C" {
 #pragma mark Log Initialization
 
 /// Log facility initialization. Usually there is no need to call this directly.
-extern void BNCLogInitialize(void) __attribute__((constructor));
+extern void BNCLogInitialize(void);
 
 #pragma mark Log Message Severity
 
